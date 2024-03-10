@@ -37,6 +37,7 @@ li {
     margin-left: 50px;
 }
 
+
 p {
     background-color: #B3C7F7;
     padding: 20px;
@@ -58,8 +59,8 @@ text-decoration: none;
 .active {
     /* display: inline-block; */
     /* height */
+    /* color: white; */
     background-color: #ffa109;
-    color: white;
     text-decoration: underline;
     text-decoration-color: black;
     text-underline-offset: 5px;
@@ -128,14 +129,14 @@ text-decoration: none;
 }
 
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41; */
+    background-color: #3e8e41;
 }
   /* testing */
 
  /* add another indication of styling for what page you are on */
 
  @media (min-width: 768px) {
-nav ul {
+nav {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
